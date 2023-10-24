@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: cadetblue;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+        div#div1:hover{
+            background-color: aquamarine;
+        }
+        div#div2:hover{
+            background-color: yellowgreen;
+        }
+        div#div3:hover{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://www.facebook.com/paulo.prediger" target="_blank" rel="noopener noreferrer"><img src="../imgC.png" alt="Imagem de Perfil"></a>
+    </header>
+    <main>
+        <div id="div1">
+            <p>1</p>
+        </div>
+        <div id="div2">
+            <p>2</p>
+        </div>
+        <div id="div3">
+            <p>3</p>
+        </div>
+    </main>
+</body>
+</html>

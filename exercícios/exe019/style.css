@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Norwester;
+    src: url(../perfil/norwester/norwester.otf);
+}
+*{
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background-color: azure;
+    background-attachment: fixed;
+    background-image: linear-gradient(-45deg, rgb(81, 81, 226), rgb(129, 54, 151));
+}
+header{
+    height: 100px;
+    background-image: linear-gradient(to right, #8E6AA6, #42378C, #2E2C73, #8E6AA6);
+    border: 5px solid #C1D6D9;
+    border-radius: 5px;
+    box-shadow: 3px 5px 15px black;
+    text-align: center;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+h1{
+    text-align: left;
+    color: #2E2C73;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+h1#principal{
+    text-align: center;
+    font-family: Norwester, sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-weight: lighter;
+}
+h2{
+    color: #42378C;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+h3{
+    color: #8E6AA6;
+}
+ul{
+    color: #5F3739;
+}
+p{
+    text-align: justify;
+    color: #A6615E;
+}
+

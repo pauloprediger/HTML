@@ -61,9 +61,7 @@ header > p{
     text-align: center;
 }
 nav{
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding: 20px 0px 10px 10px;
     box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.400);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.350);
     background-color: var(--cor4);
@@ -77,6 +75,9 @@ nav > a{
    text-align: left;
    font-weight: bold;
    min-width: 300px;
+}
+#ultimo{
+    margin-right: 0px;
 }
 nav > a:hover{
     color: black;

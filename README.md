@@ -1,5 +1,5 @@
 # HTML
- curso de html e css do curso em vídeo
+ Curso de HTML e CSS do Curso em Vídeo
 
 Estou aprendendo a gerenciar repositorios e a criar sites
 

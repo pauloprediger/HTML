@@ -55,10 +55,10 @@ header > p{
     font-size: 1.2em;
     font-family: var(--fontPadrao);
     max-width: 500px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
     margin: auto;
-    text-align: center;
 }
 nav{
     padding: 20px 0px 10px 10px;

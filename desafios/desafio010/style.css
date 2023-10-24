@@ -28,8 +28,6 @@ body{
     background-attachment: fixed;
     background-color: var(--cor1);
     font-family: var(--fontPadrao);
-    margin: 0px;
-   
 }
 header{
     min-height: 120px;

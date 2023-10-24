@@ -61,19 +61,22 @@ header > p{
     text-align: center;
 }
 nav{
-    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
     box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.400);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.350);
     background-color: var(--cor4);
     width: 100%;
 }
 nav > a{
-   margin-right: 20px;
+   margin-right: 10px;
    text-decoration: none;
    color: white;
    font-size: 1em; 
    text-align: left;
    font-weight: bold;
+   min-width: 300px;
 }
 nav > a:hover{
     color: black;

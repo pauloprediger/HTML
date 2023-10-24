@@ -65,7 +65,6 @@ nav{
     box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.400);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.350);
     background-color: var(--cor4);
-    min-width: 450px;
 }
 nav > a{
    margin-right: 30px;

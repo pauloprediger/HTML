@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Playpen Sans, Helvetica, sans-serif;
 }
 body{
     width: 97%;
@@ -17,10 +19,11 @@ header{
     width: 100%;
     height: 200px;
     padding: 20px;
+    font-family: 'Passion One', sans-serif;
 }
 header h1{
     padding: 20px;
-    font-size: 5em;
+    font-size: 8em;
 }
 a{
     text-decoration: none;
@@ -49,17 +52,20 @@ div.img{
     box-shadow: 0px 0px 3px black;
 }
 div#img1{
-    background-image: url('imagens/wallpaper002.jpg');
+    background-image: url('imagens/background001.jpg');
 
 }
 div#img2{
-    background-image: url('imagens/shampoo.png');
+    background-image: url('imagens/background002.jpg');
+}
+div > p{
+    font-family: 'Sriracha', cursive;
 }
 .box_p{
     padding: 80px;
     color: white;
     text-shadow: 0px 0px 2px black;
-    max-width: 630px;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.301);
 }
 footer{
@@ -68,4 +74,5 @@ footer{
     color: white;
     text-align: center;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }

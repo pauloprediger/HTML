@@ -61,15 +61,16 @@ section p{
 
 }
 #form{
-    height: 520px;
+    height: 100vh;
     background-image: url('imagens/header3.jpg');
     background-color: lightgray;
     background-attachment: fixed;
     background-attachment: fixed;
+    padding-bottom: 100px;
 }
 #exp{
     background-image: url('imagens/img3.jpg');
-    height: 570px;
+    height: 500px;
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +96,6 @@ article{
 article#formA{
     position: absolute;
     right: 2vw;
-    
 }
 
 article h2{

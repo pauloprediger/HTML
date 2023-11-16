@@ -5,7 +5,7 @@
     margin: 0px;
 }
 :root{
-    --cor1: #031927;
+    --cor1: #03192744;
     --cor2: #A98F90;
 
     --font1: 'Baskervville', Helvetica, sans-serif;
@@ -14,7 +14,7 @@ header{
     max-height: 15vh;
     width: 100%;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
     
     text-align: center;
     box-shadow: -10px -10px 15px;
@@ -61,7 +61,7 @@ section p{
 
 }
 #form{
-    height: 100vh;
+    min-height: 150vh;
     background-image: url('imagens/header3.jpg');
     background-color: lightgray;
     background-attachment: fixed;
@@ -100,6 +100,24 @@ article#formA{
 
 article h2{
     margin-bottom: 5px;
+}
+ul{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    list-style-type: '✔\00A0';
+    list-style-position: inside;
+
+    font-size: 0.8em;
+
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.753);
 }
 footer{
     padding-top: 20px;

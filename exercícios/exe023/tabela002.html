@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Tabela 02</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        tbody{
+            text-align: center;
+            
+        }
+        td, th{
+            border: 1px solid black;
+            height: 30px;
+        }
+        thead th{
+            background-color: rgba(119, 136, 153, 0.308);
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <caption>População total unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col" style="width: 500px;">Unidade Federativa</th>
+                <th scope="col" style="width: 150px;">População</th>
+                <th scope="col" style="width: 100px;">% da pop. total</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rio de Janeiro</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero">00000000</td>
+                <td>    </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

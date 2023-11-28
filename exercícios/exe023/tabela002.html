@@ -7,13 +7,39 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Tabela 02</title>
     <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+            text-align: center;
+            background-image:linear-gradient(to right , lightcyan, lightgreen);
+            color: cornflowerblue;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid black;
+        }
+        h1{
+            text-align: center
+        }
+        body{
+            text-align: center;
+            background-color: rgba(211, 211, 211, 0.445);
+        }
         table{
+            display: inline-block;
             border-collapse: collapse;
             font-family: Arial, Helvetica, sans-serif;
         }
         tbody{
             text-align: center;
             
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightblue;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightcyan;
         }
         td, th{
             border: 1px solid black;
@@ -25,12 +51,22 @@
         .numero{
             text-align: right;
         }
+        caption{
+            border: 1px solid black;
+            border-bottom: 0px;
+
+            padding: 15px;
+
+            background-color: lightgreen;
+        }
     </style>
 </head>
 <body>
-    <h1>Tabelas Grandes</h1>
+    <header>
+        <h1>Tabelas Grandes</h1>
+    </header>
     <table>
-        <caption>População total unidades federativas</caption>
+        <caption><strong>População total unidades federativas</strong></caption>
         <thead>
             <tr>
                 <th scope="col">Posição</th>
@@ -58,6 +94,43 @@
                 <td class="numero">128771231</td>
                 <td>21,9%</td>
             </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Minas Gerais</td>
+                <td class="numero">128771231</td>
+                <td>21,9%</td>
+            </tr>
+
         </tbody>
         <tfoot>
             <tr>

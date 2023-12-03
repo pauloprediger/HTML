@@ -61,7 +61,7 @@ section p{
 
 }
 #form{
-    min-height: 150vh;
+    min-height: 160vh;
     background-image: url('imagens/header3.jpg');
     background-color: lightgray;
     background-attachment: fixed;
@@ -84,11 +84,12 @@ article{
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
-    font-size: 1.1em;
+    font-size: 1em;
 
     padding-top: 10px;
     padding-bottom: 25px;
-    max-width: 60vw;    
+    max-width: 60vw;
+    height: auto;   
     margin-left: 5vw;
     margin-top: 10px;
 }

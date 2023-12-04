@@ -60,21 +60,24 @@ ul{
 }
 li{
     text-align: center;
-    width: 210px;
 }
 a{
     text-decoration: none;
-    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
     background-color: blue(240, 128, 128, 0.425);
-    padding: 15px;
+    padding: 8px;
     border-radius: 3px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
 }
 a:hover{
     background-color: rgba(211, 211, 211, 0.192);
-    font-size: 1.04em;
+    font-size: 1.2em;
     transition-duration: 1s;
 
+}
+a:visited{
+    color: #1D1F23;
 }
 footer{
     color: white;

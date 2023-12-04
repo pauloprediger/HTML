@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+:root{
+    --font1: 'Baskervville', Helvetica, sans-serif;
+}
+article{
+    background-color: rgba(255, 255, 255, 0.719);
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    padding: 20px;
+    height: auto;   
+}
+h1{
+    text-align: center;
+    font-family: var(--font1);
+}
+ul{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+
+    list-style-type: '✔\00A0';
+    list-style-position: inside;
+
+    font-size: 0.8em;
+}

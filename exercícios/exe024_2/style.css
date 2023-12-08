@@ -69,12 +69,17 @@ a{
     padding: 8px;
     border-radius: 3px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
+    box-sizing: border-box;
 }
 a:hover{
     background-color: rgba(211, 211, 211, 0.192);
     font-size: 1.2em;
-    transition-duration: 1s;
-
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+}
+li:hover{
+    transform: translate(0px, -3px);
+    transition: transform 1s, border .1s;
 }
 a:visited{
     color: #1D1F23;

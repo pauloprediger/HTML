@@ -9,4 +9,4 @@ Desafios do Curso em Vídeo
 <br>
 <a href="https://pauloprediger.github.io/HTML//desafios/cordel/index.html" target="_blank" rel="next">Desafio do Cordel</a>
 <br>
-<a href="https://pauloprediger.github.io/HTML//desafios/cordel/index.html" target="_blank" rel="next">Desafio do Redes Sociais</a>
+<a href="https://pauloprediger.github.io/rede-social/" target="_blank" rel="next">Desafio do Redes Sociais</a>

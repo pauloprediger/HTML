@@ -7,8 +7,8 @@ Desafios do Curso em Vídeo
 
 <a href="https://pauloprediger.github.io/HTML//desafios/desafio010/index.html" target="_blank" rel="next">Desafio Android</a>
 <br>
-<a href="https://pauloprediger.github.io/HTML//desafios/cordel/index.html" target="_blank" rel="next">Desafio do Cordel</a>
+<a href="https://pauloprediger.github.io/HTML//desafios/cordel/index.html" target="_blank" rel="next">Desafio Cordel</a>
 <br>
-<a href="https://pauloprediger.github.io/rede-social/" target="_blank" rel="next">Desafio do Redes Sociais</a>
+<a href="https://pauloprediger.github.io/rede-social/" target="_blank" rel="next">Desafio Redes Sociais</a>
 <br>
 <a href="https://pauloprediger.github.io/HTML/portifolio/index.html" target="_blank" rel="next">Portifólio</a>

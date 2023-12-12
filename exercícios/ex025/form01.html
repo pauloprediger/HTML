@@ -21,10 +21,12 @@
 </head>
 <body>
     <h1>Meu primeiro formulário HTML</h1>
-    <form>
-        <p>Nome <input type="text" name="nome" id="nome"></p>
+    <form autocomplete="off" action="cadastro.php">
+        <p><label for="id_nome">Nome:</label> 
+            <input type="text" name="nome" id="id_nome"></p>
         <br>
-        <p>Sobrenome <input type="text" name="sobrenome" id="sobrenome"></p>
+        <p><label for="id_sobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="id_sobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>

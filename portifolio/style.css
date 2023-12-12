@@ -63,6 +63,7 @@ li{
 }
 article a{
     text-decoration: none;
+    color: black;
     font-size: 1.1em;
     font-weight: bold;
     background-color: blue(240, 128, 128, 0.425);
@@ -80,9 +81,6 @@ a:hover{
 li:hover{
     transform: translate(0px, -3px);
     transition: transform 1s, border .1s;
-}
-article a:visited{
-    color: #1D1F23;
 }
 footer{
     color: white;

@@ -80,7 +80,7 @@ a:hover{
 }
 li:hover{
     transform: translate(0px, -3px);
-    transition: transform 1s, border .1s;
+    transition: transform 1s;
 }
 footer{
     color: white;

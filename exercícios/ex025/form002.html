@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Formulário 2</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            text-align: center;
+        }
+        form{
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            text-align: justify;
+            border: 1px solid black;
+            width: 200px;
+            padding: 20px 30px 20px 30px;
+        }
+        form h3{
+            text-align: center;
+        }
+        p{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <h3> Cadastro de Usuários</h3>
+        <p>
+            <label for="id_name">Usuário:</label></p>
+            <input type="text" name="name" id="id_name" required minlength="5" maxlength="15" size="10" autocomplete="username"> 
+            <br>
+        <p>
+            <label for="id_password">Senha:</label></p>
+            <input type="password" name="password" id="id_password" required minlength="8" maxlength="20" size="10" autocomplete="new-password">
+            <br>
+        <p>
+            <input type="submit" value="Cadastrar">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Limpar">
+        </p>    
+    </form>
+</body>
+</html>

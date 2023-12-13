@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>Formulário 3</title>
+    <title>Exemplo de Formulário</title>
     <style>
         *{
             margin: 0px;
@@ -36,15 +36,16 @@
             padding: 5px;
         }
         input.button{
-            background-color: lightgreen;
-            padding: 5px;
+            background-color: lightblue;
+            padding: 5px 15px;
             box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.350);
             border-radius: 10%;
+            border: 2px solid rgba(0, 0, 0, 0.541);
             text-align: center;
         }
         input.button:hover{
-            background-color: lightcoral;
-            transform: translate(0px, 1px);
+            background-color: rgba(128, 0, 128, 0.404);
+            transform: translate(0px, 2px);
             box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.350);
             transition: transform 1s, border 0.5s, background-color 0.5s;
         }
@@ -55,32 +56,27 @@
     </style>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on">
-        <h3>Nota Alunos</h3>
-        <p>
-            <label for="id_name"><strong>Aluno:</strong></label>
-            <input type="text" name="name" id="id_name" autocomplete="name" required  maxlength="30" size="20" placeholder="Nome Completo"> 
-        </p>
-        <p>
-            <label for="id_media"><strong>Média:</strong></label>
-            <input type="number" name="media" id="id_media" required min="0" max="10" placeholder="0 - 10" step="0.1">
-        </p>
-        <p>
-            <label for="id_mes"><strong>Período Letivo:</strong></label>
-            <input type="month" name="mes" id="id_mes" required>
-        </p>
-        <p>
-            <label for="id_diaProva"><strong>Dia Prova:</strong></label>
-            <input type="date" name="diaProva" id="id_diaProva" required>
-        </p>
-        <p>
-            <label for="id_diaProva"><strong>Hora Prova:</strong></label>
-            <input type="time" name="horaProva" id="id_horaProva" required>
-        </p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <h3>Teste de Formulário</h3>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="id_nome">Nome:</label>
+                <input type="text" name="nome" id="id_nome" required placeholder="Nome completo" minlength="5" maxlength="30" autocomplete="name">
+            </p>
+            <p>
+                <label for="id_email">E-mail:</label>
+                <input type="email" name="email" id="id_email" required placeholder="@gmail.com" autocomplete="email">
+            </p>
+            <p>
+                <label for="id_phone">Telefone:</label>
+                <input type="tel" name="phone" id="id_phone" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" autocomplete="tel" placeholder="(xx)xxxxx-xxxx">
+            </p>
+        </fieldset>
         <p id="botoes">
-            <input class="button" type="submit" value="Enviar">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input class="button" type="reset" value="Limpar">
+            <input type="submit" value="Enviar" class="button">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Limpar" class="button">
         </p>
     </form>
 </body>

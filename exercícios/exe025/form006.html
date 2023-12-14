@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>Formulário</title>
+    <title>Mais Formulários</title>
     <style>
         *{
                 margin: 0px;
@@ -21,10 +21,10 @@
                 margin: auto;
                 margin-top: 50px;
                 text-align: justify;
-                border: 1px solid rgba(0, 0, 0, 0.350);
+                border: 2px solid rgba(0, 0, 0, 0.350);
                 border-radius: 5px;
                 box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.350);
-                width: 300px;
+                width: 400px;
                 padding: 20px 30px 20px 30px;
                 color: rgba(0, 0, 0, 0.753);
             }
@@ -34,6 +34,7 @@
             }
             p{
                 padding: 5px;
+                line-height: 2em;
             }
             input.button{
                 background-color: lightblue;
@@ -42,6 +43,8 @@
                 border-radius: 10%;
                 border: 2px solid rgba(0, 0, 0, 0.541);
                 text-align: center;
+                color: rgba(0, 0, 0, 0.700);
+                font-weight: bolder;
             }
             input.button:hover{
                 background-color: rgba(128, 0, 128, 0.404);
@@ -53,29 +56,29 @@
                 text-align: center;
                 padding-top: 20px;
             }
+            fieldset{
+                padding: 10px;
+                border-radius: 5px;
+                border: 2px solid rgba(0, 0, 0, 0.5);
+            }
+            legend{
+                text-align: center;
+            }
     </style>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on">
-        <h3>Teste de Formulário</h3>
+    <form action="cadastro.php" method="POST" autocomplete="on">
         <fieldset>
-            <legend>Jogos que já jogou</legend>
+            <legend>Outros Inputs</legend>
             <p>
-                <input type="checkbox" name="castle" id="id_castle">
-                <label for="id_castle">Castlevania</label>
+                <label for="id_color">Cor:</label>
+                <input type="color" name="color" id="id_color" value="#00ff00">
                 <br>
-                <input type="checkbox" name="mario" id="id_mario">
-                <label for="id_mario">Mario</label>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend>Sexo</legend>
-            <p>
-                <input type="radio" name="sexo" id="id_masc" value="Masculino">
-                <label for="id_masc">Masculino</label>
+                <label for="id_tamanho">Satisfação:</label>
+                <input type="range" name="tamanho" id="id_tamanho" min="1" max="10" value="5">
                 <br>
-                <input type="radio" name="sexo" id="id_fem" value="Feminino">
-                <label for="id_fem">Feminino</label>
+                <label for="id_foto">Foto perfil:</label>
+                <input type="file" name="foto" id="id_foto" required>
             </p>
         </fieldset>
         <p id="botoes">

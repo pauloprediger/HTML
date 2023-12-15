@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>Formulários</title>
+    <title>Output</title>
     <style>
         *{
             margin: 0px;
@@ -75,45 +75,21 @@
     </style>
 </head>
 <body>
-    <form action="cadastro.php" method="post" autocomplete="on">
+    <form action="cadastro.php">
         <fieldset>
-            <legend>Selects</legend>
+            <legend>Satisfação</legend>
             <p>
-                <label for="id_estado">Estado:</label>
-                <select name="estado" id="id_estado">
-                    <optgroup label="Região Sul">
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="SC">Santa Catarina</option>
-                        <option value="PR">Paraná</option>
-                    </optgroup>
-                    <optgroup label="Região Sudeste">
-                        <option value="SP">São Paulo</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="MG">Rio de Janeiro</option>
-                    </optgroup>
-                </select>
-                <br>
-                <label for="lstprof">Profissão:</label>
-                <input type="text" name="prof" id="id_prof" list="lstprof" required value="Puta">
-                <datalist id="lstprof">
-                    <option>Puta</option>
-                    <option>Agiota</option>
-                    <option>Macumbeiro</option>
-                </datalist>
+                <label for="id_sat">Satisfação:</label>
+                <input type="range" name="sat" id="id_sat" min="0" max="10" value="5" oninput="id_numS.innerHTML = Number(id_sat.value)" >
+                <output name="numS" id="id_numS"></output>
             </p>
-        </fieldset>
-        <fieldset>
-            <legend>Comentários</legend>
-            <p>
-                <label for="id_coment">Envie sua mensagem:</label>
-            </p>
-            <textarea name="coment" id="id_coment" cols="51" rows="5"></textarea>
         </fieldset>
         <p id="botoes">
             <input type="submit" value="Enviar" class="button">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="reset" value="Limpar" class="button">
+            <input type="reset" value="Limpar" class="button" onclick="id_numS.innerHTML = Number(5)">
         </p>
+
     </form>
 </body>
 </html>

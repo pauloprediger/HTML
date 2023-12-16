@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Output</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        :root{
+            --cor1: #94E1CE;
+            --cor2: #3CAF92;
+            --cor3: #219E7E;
+            --cor4: #0B8466;
+            --cor5: #94E970;
+        }
+        body{
+            text-align: center;
+            background-color: var(--cor4);
+        }
+        form{
+            background-color: var(--cor1);
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            text-align: justify;
+            border: 2px solid rgba(0, 0, 0, 0.350);
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.350);
+            width: 400px;
+            padding: 20px 30px 20px 30px;
+            color: rgba(0, 0, 0, 0.753);
+        }
+        form h3{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p{
+            padding: 5px;
+            line-height: 2em;
+        }
+        input.button{
+            background-color: var(--cor5);
+            padding: 5px 15px;
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.350);
+            border-radius: 10%;
+            border: 2px solid rgba(0, 0, 0, 0.541);
+            text-align: center;
+            color: rgba(0, 0, 0, 0.700);
+            font-weight: bolder;
+        }
+        input.button:hover{
+            background-color: var(--cor2);
+            transform: translate(0px, 2px);
+            box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.350);
+            transition: transform 0.1s, border 0.5s, background-color 0.5s;
+        }
+        p#botoes{
+            text-align: center;
+            padding-top: 20px;
+        }
+        fieldset{
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid rgba(0, 0, 0, 0.5);
+        }
+        legend{
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Calculo da sua idade</legend>
+            <p>
+                <label for="id_ano">Ano que você nasceu:</label>
+                <input type="number" name="ano" id="id_ano" min="1900" max="2023" oninput="calIdade()" >
+            </p>
+            <p>
+                <label for="iidade">Sua idade é:</label>
+                <output id="iidade">0</output>
+            </p>
+        </fieldset>
+        <p id="botoes">
+            <input type="submit" value="Enviar" class="button">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Limpar" class="button" onclick="iidade.innerHTML = Number(0)">
+        </p>
+    </form>
+    <script>
+        function calIdade(){
+            let atual = new Date().getFullYear();
+            iidade.innerHTML = Number(atual) - Number(id_ano.value);
+        }
+    </script>
+</body>
+</html>

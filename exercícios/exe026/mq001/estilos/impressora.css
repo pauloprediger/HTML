@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+article p{
+    text-align: justify;
+    width: 100%;
+}
+menu{
+    display: none;
+}
+footer{
+    display: none;
+}
+article::after{
+    content: 'Esse artigo foi escrito por Paulo Prediger';
+}

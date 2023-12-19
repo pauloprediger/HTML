@@ -30,6 +30,15 @@ ul{
 img{
     border-radius: 50%;
     width: 150px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+img:hover{
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 1s, border .1s;
 }
 article#social{
     text-align: center;

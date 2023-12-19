@@ -94,6 +94,9 @@ footer{
 footer p{
     text-align: center;
 }
+footer > p > strong{
+    cursor: pointer;
+}
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;

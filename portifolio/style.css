@@ -16,7 +16,7 @@ body{
     box-sizing: border-box;
 }
 header{
-    background-color: rgba(119, 136, 153, 0.534);
+    background-color: rgba(119, 136, 153, 0.500);
     margin-top: 0px;
     padding-bottom: 5px;
     box-shadow: 1px 1px 5px black;
@@ -70,12 +70,11 @@ main{
     background-color: white;
     width: 90vw;
     margin: auto;
-    padding: 0px 40px;
+    padding: 0px 40px 0px 40px;
     margin-top: 20px;
     margin-bottom: 20px;
     word-spacing: normal;
     border-radius: 20px 20px 0px 0px;
-    box-shadow: 1px 1px 5px black;
 }
 article h2{
     text-align: center;
@@ -99,6 +98,7 @@ footer p{
 iframe{
     display: block;
     margin: auto;
-    width: 90vw;
+    padding-top: 10px;
+    width: 87vw;
     min-height: 100vh;
 }

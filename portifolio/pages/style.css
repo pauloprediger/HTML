@@ -27,6 +27,13 @@ ul{
 
     font-size: 0.8em;
 }
+img{
+    border-radius: 50%;
+    width: 150px;
+}
+article#social{
+    text-align: center;
+}
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;

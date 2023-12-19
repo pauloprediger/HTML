@@ -27,3 +27,7 @@ ul{
 
     font-size: 0.8em;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}

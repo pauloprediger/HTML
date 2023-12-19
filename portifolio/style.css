@@ -18,10 +18,9 @@ body{
 header{
     background-color: rgba(119, 136, 153, 0.500);
     margin-top: 0px;
-    padding-bottom: 5px;
     box-shadow: 1px 1px 5px black;
 }
-h1{
+header > h1{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -66,27 +65,22 @@ menu > ul> li > a:hover{
     background-color: rgba(128, 128, 128, 0.6);
     box-sizing: border-box;
 }
-main{
+article{
     background-color: white;
     width: 90vw;
     margin: auto;
-    padding: 0px 40px 0px 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-    word-spacing: normal;
     border-radius: 20px 20px 0px 0px;
 }
-article h2{
-    text-align: center;
-    padding-top: 30px;
+iframe{
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 90vw;
+    min-height: 100vh;
+    border-radius: 20px 20px 0px 0px;
 }
-article p{
-    line-height: 2em;
-    text-indent: 30px;
-    padding: 20px;
-    text-align: justify;
-}
-
 footer{
     color: white;
     background-color: black;
@@ -95,10 +89,7 @@ footer{
 footer p{
     text-align: center;
 }
-iframe{
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    width: 87vw;
-    min-height: 100vh;
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }

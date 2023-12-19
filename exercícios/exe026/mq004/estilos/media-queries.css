@@ -13,9 +13,17 @@ Extra large devices (large laptops and desktops, 1200px and up)
 */
 
 @media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
     body{
         background-image: url('../imagens/back-print.jpg');
-        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 1px solid black;
+    }
+    main h1{
+        color: black;
         text-shadow: none;
     }
     img#id_pc{display:none;}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --font1: 'Baskervville', Helvetica, sans-serif;
+}
+body{
+    background-color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(119, 136, 153, 0.534);
+    margin-top: 0px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: var(--font1);
+}
+span#id_menu{
+    display: block;
+    text-align: center;
+    color:#20B2AA;
+    padding: 10px;
+    background-color: #D3D3D3;
+    border-top: 1px solid white;
+    cursor: pointer;
+}
+span#id_menu:hover{
+    background-color: #6C8B8D;
+    color: white;
+}
+menu{
+    display: none;
+}
+ul{
+    display: block;
+    margin: 0px;
+    list-style-type: none;
+}
+li{
+    text-align: center;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.800);
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    
+}
+menu > ul> li > a:hover{
+    border: 1px solid white;
+    background-color: rgba(128, 128, 128, 0.6);
+    box-sizing: border-box;
+}
+main{
+    background-color: white;
+    width: 60vw;
+    margin: auto;
+    padding: 0px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: normal;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 1px 1px 5px black;
+}
+article h2{
+    text-align: center;
+    padding-top: 30px;
+}
+article p{
+    line-height: 2em;
+    text-indent: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+

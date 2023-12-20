@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Portifólio</h1>
         <span id="id_menu" class="material-symbols-outlined" onclick="clickMenu()">
@@ -42,6 +43,13 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                burguer.style.display = 'none';
+            }else{
+                burguer.style.display = 'block'
+            }
+        }
         function clickMenu(){
             if(burguer.style.display == 'block'){
                 burguer.style.display = 'none';

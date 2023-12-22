@@ -13,4 +13,4 @@ Desafios do Curso em Vídeo
 <br>
 <a href="https://pauloprediger.github.io/HTML/portifolio/index.html" target="_blank" rel="next">Portifólio</a>
 <br>
-<a href="https://pauloprediger.github.io/Login/index.html" target="_blank" rel="next">Login</a>
+<a href="https://pauloprediger.github.io/Login/" target="_blank" rel="next">Login</a>

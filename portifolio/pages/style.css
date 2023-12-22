@@ -9,7 +9,6 @@ article{
     line-height: 2em;
     font-size: 1em;
     padding: 20px;
-    height: auto;   
 }
 h1{
     text-align: center;
@@ -29,8 +28,8 @@ ul{
 }
 img{
     border-radius: 50%;
-    width: 150px;
-    margin: 20px;
+    width: 100px;
+    margin: 15px;
     box-shadow: 2px 2px 5px black;
     box-sizing: border-box;
 }
@@ -47,7 +46,6 @@ article#social{
     width: 0px;
     height: 0px;
 }
-
 @media only screen and (max-width: 600px){
     img{
         width: 100px;

@@ -11,6 +11,6 @@ Mini Projetos realizados como forma de treinamento e desafio
 <br>
 <a href="https://pauloprediger.github.io/rede-social/" target="_blank" rel="next">Desafio Redes Sociais</a>
 <br>
-<a href="https://pauloprediger.github.io/HTML/portifolio/index.html" target="_blank" rel="next">Portfolio</a>
+<a href="https://pauloprediger.github.io/HTML/portifolio/index.html" target="_blank" rel="next">Portfólio</a>
 <br>
 <a href="https://pauloprediger.github.io/Login/" target="_blank" rel="next">Login</a>

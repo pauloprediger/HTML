@@ -1,9 +1,9 @@
-# HTML
- Curso de HTML e CSS do Curso em Vídeo
+# HTML e JavaScript
+Cursos de HTML, CSS e JavaScript 
 
 Estou aprendendo a gerenciar repositorios e a criar sites<br>
 
-Desafios do Curso em Vídeo
+Mini Projetos realizados como forma de treinamento e desafio
 
 <a href="https://pauloprediger.github.io/HTML//desafios/android/index.html" target="_blank" rel="next">Desafio Android</a>
 <br>

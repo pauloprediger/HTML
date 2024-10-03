@@ -5,11 +5,15 @@ Estou aprendendo a gerenciar repositórios e a criar sites, neste repositório c
 
 Mini Projetos realizados como forma de treinamento e desafio 🚀
 
-- Desafio Android 📱
-- Desafio Cordel 📜
-- Desafio Redes Sociais 🌐
-- Portfólio 🗂️
-- Login 🔑
+📱 <a href="https://pauloprediger.github.io/HTML//desafios/android/index.html" target="_blank" rel="next">Desafio Android</a> 
+<br>
+📜 <a href="https://pauloprediger.github.io/HTML//desafios/cordel/index.html" target="_blank" rel="next">Desafio Cordel</a>
+<br>
+🌐 <a href="https://pauloprediger.github.io/rede-social/" target="_blank" rel="next">Desafio Redes Sociais</a>
+<br>
+🗂️ <a href="https://pauloprediger.github.io/HTML/portifolio/index.html" target="_blank" rel="next">Portfólio</a>
+<br>
+🔑 <a href="https://pauloprediger.github.io/Login/" target="_blank" rel="next">Login</a>
 
 ## Tecnologias Usadas 🛠️
 
